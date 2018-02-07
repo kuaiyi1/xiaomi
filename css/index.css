@@ -1,11 +1,12 @@
 @font-face {
   font-family: 'iconfont';  /* project id 561433 */
-  src: url('https://at.alicdn.com/t/font_561433_p5yta4igx34pwrk9.eot');
-  src: url('https://at.alicdn.com/t/font_561433_p5yta4igx34pwrk9.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_561433_p5yta4igx34pwrk9.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_561433_p5yta4igx34pwrk9.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_561433_p5yta4igx34pwrk9.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_561433_imy6fhi64c59udi.eot');
+  src: url('https://at.alicdn.com/t/font_561433_imy6fhi64c59udi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561433_imy6fhi64c59udi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561433_imy6fhi64c59udi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561433_imy6fhi64c59udi.svg#iconfont') format('svg');
 }
+
 
 
 .head{
@@ -72,7 +73,7 @@
 	cursor: pointer;		/* 光标样式 */
 }
 .search{
-	border: 1px solid #E1E1E1;
+	/* border: 1px solid #E1E1E1; */
 	width: 294px;
 	height: 48px;
 	float: right;
@@ -1126,7 +1127,7 @@
 }
 .search_left{
 	float: left ;
-	margin-left: 110px;
+	margin-left: 65px;
 	 padding: 10px 0; 
 	  line-height: 28px; 
 
@@ -1142,20 +1143,20 @@
 }
 .search_right{
     float: right;
-    border-left : 1px solid #E0E0E0;
+    /* border-left : 1px solid #E0E0E0; */
     padding: 0;
      width: 52px;
      height: 48px;
 
 }
 
-.search_right span{
+.icont{
     
 	color: #ff6700;
 	font-size: 24px;
 	line-height: 48px;
-	margin: 0 14px;
-	
+	/* margin: 0 14px; */
+	text-align: center;
 	font-family: 'iconfont';
 }
 .neirong_bottom_left2{
@@ -1344,4 +1345,14 @@
 .zhineng_more .zhineng_btn:hover{
     color: white;
     background-color:#ff6700; 
+}
+.xuangou_right img:hover,.zhineng_item:hover,.dapei_item:hover,.introduce_item:hover,.product_bottom_item:hover,.vidio_item:hover,.neirong_bottom_item:hover,.zhineng_left:hover,.dapei_item5:hover,.dapei_zuihou:hover{
+
+    box-shadow: 0 10px 20px 2px #757575;
+
+}
+.xuangou_right img:hover,.zhineng_item:hover,.dapei_item:hover,.introduce_item:hover,.product_bottom_item:hover,.vidio_item:hover,.neirong_bottom_item:hover,.zhineng_left:hover,.dapei_item5:hover,.dapei_zuihou:hover{
+
+   transform: translate(0, 1px);
+
 }
