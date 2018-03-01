@@ -1350,7 +1350,7 @@
 }
 .vidio_item_top span:hover{
  	background-color: rgba(0,0,0,0.6);
- 	background-color:#ff6700 ;
+ 	color:#ff6700 ;
 }
 .dapei_right span:hover{
     border-bottom: 2px solid #FF6700;
