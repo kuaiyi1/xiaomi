@@ -6,6 +6,7 @@
     <link rel="icon" href="image/logo-footer.png" type="image/png">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/public.css">
+    
 </head>
 <body>
     <!-- 头部开始 -->
@@ -102,10 +103,13 @@
     <!-- 导航栏结束 -->
     <!-- bannner开始 -->
     <div id="banner">
-    	<div class="banner_img">
-    		<img src="image/banner1.jpg" alt="">
-    		<img src="image/q.jpg" alt="">
-    	</div>
+    	<ul class="banner_img">
+    		<li class="active"><img src="image/banner1.jpg" alt=""> </li>
+    		<li><img src="image/q.jpg" alt=""></li>
+    		<li><img src="image/a3.jpg" alt=""> </li>
+    		<li><img src="image/a4.jpg" alt=""> </li>
+    		<li><img src="image/a5.jpg" alt=""></li>
+    	</ul>
     	<ul class="banner_nav">
     		<li>
     			<span class="banner_title">手机 电话卡</span>
@@ -157,15 +161,16 @@
     			<span class="banner_jiantou">&gt</span>
     		</li>
 		</ul>
-		<div class="banner_btn banner_lbtn">&lt;</div>
-		<div class="banner_btn banner_rbtn">&gt;</div>
-		<div class="banner_dot">
-			<span class="banner_dot1"></span> 
-			<span></span>
-			<span></span>
-			<span></span>
-			<h2></h2> 
-		</div>
+		<div class="banner_btn banner_lbtn"></div>
+		<div class="banner_btn banner_rbtn"></div>
+
+		<ul class="banner_dot">
+			<li class="active"></li> 
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
 	</div>
     <!-- banner结束	 -->
     <!-- 选购手机开始 -->
@@ -215,45 +220,117 @@
         <div class="star_top">
             <h1 >小米明星单品</h1>
             <div class="star_btn">
-                <div class="star_btn1">&lt;</div>
-                <div>&gt;</div>
+                <div class="star_btn1 disable">&lt;</div>
+                <div class="star_btn2">&gt;</div>
             </div>
         </div>
         <div class="star_bottom">
-            <div class="star_item">
-                <img src="image/1 (1).png" alt="">
-                <h1>10000mAh小米移动电源2</h1>
-                <h2>双向快充，高密度锂聚合物电芯</h2>
-                <h3>79元</h3>
-            </div>
+        	<div class="star_bottom1">
+	            <div class="star_item star_item6">
+	                <img src="image/1 (1).png" alt="">
+	                <h1>10000mAh小米移动电源2</h1>
+	                <h2>双向快充，高密度锂聚合物电芯</h2>
+	                <h3>79元</h3>
+	            </div>
 
-            <div class="star_item star_item4">
-                <img src="image/1 (2).png" alt="">
-                <h1>米家iHealth血压计</h1>
-                <h2>爸妈上手就能用的智能血压计</h2>
-                <h3>399元</h3>
-            </div>
+	            <div class="star_item star_item4">
+	                <img src="image/1 (2).png" alt="">
+	                <h1>米家iHealth血压计</h1>
+	                <h2>爸妈上手就能用的智能血压计</h2>
+	                <h3>399元</h3>
+	            </div>
 
-            <div class="star_item star_item3">
-                <img src="image/1 (3).png" alt="">
-                <h1>米家LED智能台灯</h1>
-                <h2>无可视频闪，亮度色温无级调节</h2>
-                <h3>169元</h3>
-            </div>
+	            <div class="star_item star_item3">
+	                <img src="image/1 (3).png" alt="">
+	                <h1>米家LED智能台灯</h1>
+	                <h2>无可视频闪，亮度色温无级调节</h2>
+	                <h3>169元</h3>
+	            </div>
 
-            <div class="star_item star_item2">
-                <img src="image/1 (4).png" alt="">
-                <h1>米家扫地机器人</h1>
-                <h2>智能路径规划，扫的干净扫的快</h2>
-                <h3>1699元</h3>
-            </div>
+	            <div class="star_item star_item2">
+	                <img src="image/1 (4).png" alt="">
+	                <h1>米家扫地机器人</h1>
+	                <h2>智能路径规划，扫的干净扫的快</h2>
+	                <h3>1699元</h3>
+	            </div>
 
-            <div class="star_item star_item1">
-                <img src="image/1.png" alt="">
-                <h1>小米路由器3</h1>
-                <h2>更快更强，不止四天线</h2>
-                <h3>149元</h3>
-            </div>
+	            <div class="star_item star_item1">
+	                <img src="image/1.png" alt="">
+	                <h1>小米路由器3</h1>
+	                <h2>更快更强，不止四天线</h2>
+	                <h3>149元</h3>
+	            </div>
+
+	            <div class="star_item star_item1">
+	                <img src="image/1.png" alt="">
+	                <h1>小米路由器3</h1>
+	                <h2>更快更强，不止四天线</h2>
+	                <h3>149元</h3>
+	            </div>
+
+	          	<div class="star_item star_item2">
+	                <img src="image/1 (4).png" alt="">
+	                <h1>米家扫地机器人</h1>
+	                <h2>智能路径规划，扫的干净扫的快</h2>
+	                <h3>1699元</h3>
+	            </div>
+
+	            <div class="star_item star_item3">
+	                <img src="image/1 (3).png" alt="">
+	                <h1>米家LED智能台灯</h1>
+	                <h2>无可视频闪，亮度色温无级调节</h2>
+	                <h3>169元</h3>
+	            </div>
+
+	            <div class="star_item star_item4">
+	                <img src="image/1 (2).png" alt="">
+	                <h1>米家iHealth血压计</h1>
+	                <h2>爸妈上手就能用的智能血压计</h2>
+	                <h3>399元</h3>
+	            </div>
+					
+				<div class="star_item star_item3">
+	                <img src="image/1 (3).png" alt="">
+	                <h1>米家LED智能台灯</h1>
+	                <h2>无可视频闪，亮度色温无级调节</h2>
+	                <h3>169元</h3>
+	            </div>
+
+	            <div class="star_item star_item1">
+	                <img src="image/1.png" alt="">
+	                <h1>小米路由器3</h1>
+	                <h2>更快更强，不止四天线</h2>
+	                <h3>149元</h3>
+	            </div>
+
+	          	<div class="star_item star_item2">
+	                <img src="image/1 (4).png" alt="">
+	                <h1>米家扫地机器人</h1>
+	                <h2>智能路径规划，扫的干净扫的快</h2>
+	                <h3>1699元</h3>
+	            </div>
+
+	            <div class="star_item star_item3">
+	                <img src="image/1 (3).png" alt="">
+	                <h1>米家LED智能台灯</h1>
+	                <h2>无可视频闪，亮度色温无级调节</h2>
+	                <h3>169元</h3>
+	            </div>
+
+	            <div class="star_item star_item4">
+	                <img src="image/1 (2).png" alt="">
+	                <h1>米家iHealth血压计</h1>
+	                <h2>爸妈上手就能用的智能血压计</h2>
+	                <h3>399元</h3>
+	            </div>
+					
+				<div class="star_item star_item3">
+	                <img src="image/1 (3).png" alt="">
+	                <h1>米家LED智能台灯</h1>
+	                <h2>无可视频闪，亮度色温无级调节</h2>
+	                <h3>169元</h3>
+	            </div>
+	        </div>
         </div>
     </section>
     <!-- 小米明星单品结束 -->
@@ -345,82 +422,308 @@
 	                </div>
 	       	</div>
 	       	<div class="dapei_bottom">
-	       			<img src="image/19 (2).jpg" alt="" class="dapei_item5">
-	            	<div class="dapei_item">
-	            			<img src="image/1 (2).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            			<div class="dapei_tankuang">
-	            				开始
-	            			</div>
-	            	</div>
+	       			<div class="dapei_bottom_left">
+	       				<img src="image/19 (2).jpg" alt="" class="dapei_item5">
+	       				<img src="image/xmad_15034816547397_TKBOF.jpg" alt="" class="dapei_item5 dapei_item1">
+	       			</div>
+	       			<div class="dapei_bottom_right active">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
 
-	            	<div class="dapei_item">
-	            			<img src="image/1 (3).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item">
-	            			<img src="image/1 (4).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item2">
-	            			<img src="image/1 (1).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<img src="image/xmad_15034816547397_TKBOF.jpg" alt="" class="dapei_item5 dapei_item1">
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (1).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (1).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (2).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (2).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (3).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (4).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/1 (1).png" alt="" >
+		            				</div>
+		            			</div>
+						</div>
+					</div>
 
-	            	<div class="dapei_zuihou3 dapei_item1">
-	            			<div class="dapei_zuihou">
-	            				<div class="dapei_zuihou_left">
-	            					<h1>小米小钢炮</h1>
-	            					<h2>199元</h2>
-	            				</div>
-	            				<div class="dapei_zuihou_right">
-	            					<img src="image/12 (4).jpg" alt="" >
-	            				</div>
-	            			</div>
-	            			<div class="dapei_zuihou zuihou1">
-	            				<div class="dapei_zuihou_left">
-	            					<h1>小米小钢炮</h1>
-	            					<h2>199元</h2>
-	            				</div>
-	            				<div class="dapei_zuihou_right">
-	            					<img src="image/1 (1).png" alt="" >
-	            				</div>
-	            			</div>
+					<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
 
-	            	</div>
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (1).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (2).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (4).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/1 (1).png" alt="" >
+		            				</div>
+		            			</div>
+						</div>
+					</div>
+
+					<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (1).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (2).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (4).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/1 (1).png" alt="" >
+		            				</div>
+		            			</div>
+						</div>
+					</div>
+					<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (1).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (2).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (4).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/1 (1).png" alt="" >
+		            				</div>
+		            			</div>
+						</div>
+					</div>
 				</div>
 	    </div>
 	   	<!-- 搭配结束 -->
@@ -436,83 +739,318 @@
 	                </div>
 	       	</div>
 	       	<div class="dapei_bottom">
-	       			<img src="image/19 (2).jpg" alt="" class="dapei_item5">
-	            	<div class="dapei_item">
-	            			<img src="image/1 (2).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            			<div class="dapei_tankuang">
-	            				开始
-	            			</div>
+	       			<div class="dapei_bottom_left">
+		       			<img src="image/19 (2).jpg" alt="" class="dapei_item5">
+		       			<img src="image/xmad_15034816547397_TKBOF.jpg" alt="" class="dapei_item5 dapei_item1">
+	       			</div>
+	       			<div class="dapei_bottom_right active">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (5).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (2).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (1).jpg" alt="" >
+		            				</div>
+		            			</div>
+						</div>
 	            	</div>
 
-	            	<div class="dapei_item">
-	            			<img src="image/1 (3).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
+	            	<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (2).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (1).jpg" alt="" >
+		            				</div>
+		            			</div>
+						</div>
 	            	</div>
 
-	            	<div class="dapei_item">
-	            			<img src="image/1 (4).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
+	            	<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (5).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (2).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (1).jpg" alt="" >
+		            				</div>
+		            			</div>
+						</div>
 	            	</div>
 
-	            	<div class="dapei_item dapei_item2">
-	            			<img src="image/1 (1).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
+	            	<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (5).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (2).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (1).jpg" alt="" >
+		            				</div>
+		            			</div>
+						</div>
 	            	</div>
-
-	            	<img src="image/xmad_15034816547397_TKBOF.jpg" alt="" class="dapei_item5 dapei_item1">
-
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (5).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
-
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (4).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
-
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (3).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
-
-	            	<div class="dapei_zuihou3 dapei_item1">
-	            			<div class="dapei_zuihou">
-	            				<div class="dapei_zuihou_left">
-	            					<h1>小米小钢炮</h1>
-	            					<h2>199元</h2>
-	            				</div>
-	            				<div class="dapei_zuihou_right">
-	            					<img src="image/12 (2).jpg" alt="" >
-	            				</div>
-	            			</div>
-	            			<div class="dapei_zuihou zuihou1">
-	            				<div class="dapei_zuihou_left">
-	            					<h1>小米小钢炮</h1>
-	            					<h2>199元</h2>
-	            				</div>
-	            				<div class="dapei_zuihou_right">
-	            					<img src="image/12 (1).jpg" alt="" >
-	            				</div>
-	            			</div>
-
-	            	</div>
-				</div>
+			</div>
 	    </div>
 	   	<!-- 配件结束 -->
 	   	<!-- 周边开始 -->
@@ -527,131 +1065,441 @@
 	                </div>
 	       	</div>
 	       	<div class="dapei_bottom">
-	       			<img src="image/19 (2).jpg" alt="" class="dapei_item5">
-	            	<div class="dapei_item">
-	            			<img src="image/1 (2).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            			<div class="dapei_tankuang">
-	            				开始
-	            			</div>
+	       			<div class="dapei_bottom_left">
+		       			<img src="image/19 (2).jpg" alt="" class="dapei_item5">
+		       			<img src="image/xmad_15034816547397_TKBOF.jpg" alt="" class="dapei_item5 dapei_item1">
+	       			</div>
+	       			<div class="dapei_bottom_right active">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (1).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (2).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (4).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (5).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            	</div>
 	            	</div>
+	            	<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
 
-	            	<div class="dapei_item">
-	            			<img src="image/1 (3).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (5).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (2).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (1).jpg" alt="" >
+		            				</div>
+		            			</div>
+						</div>
 	            	</div>
+	            	<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
 
-	            	<div class="dapei_item">
-	            			<img src="image/1 (4).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item2">
-	            			<img src="image/1 (1).png" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<img src="image/xmad_15034816547397_TKBOF.jpg" alt="" class="dapei_item5 dapei_item1">
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (1).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (1).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (2).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (2).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_item dapei_item1">
-	            			<img src="image/12 (3).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            	</div>
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
 
-	            	<div class="dapei_zuihou3 dapei_item1">
-	            			<div class="dapei_zuihou">
-	            				<div class="dapei_zuihou_left">
-	            					<h1>小米小钢炮</h1>
-	            					<h2>199元</h2>
-	            				</div>
-	            				<div class="dapei_zuihou_right">
-	            					<img src="image/12 (4).jpg" alt="" >
-	            				</div>
-	            			</div>
-	            			<div class="dapei_zuihou zuihou1">
-	            				<div class="dapei_zuihou_left">
-	            					<h1>小米小钢炮</h1>
-	            					<h2>199元</h2>
-	            				</div>
-	            				<div class="dapei_zuihou_right">
-	            					<img src="image/12 (5).jpg" alt="" >
-	            				</div>
-	            			</div>
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (4).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/1 (1).png" alt="" >
+		            				</div>
+		            			</div>
+						</div>
+					</div>
+					<div class="dapei_bottom_right">
+		            	<div class="dapei_item">
+		            			<img src="image/1 (2).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            			<div class="dapei_tankuang">
+		            				开始
+		            			</div>
+		            	</div>
 
+		            	<div class="dapei_item">
+		            			<img src="image/1 (3).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item">
+		            			<img src="image/1 (4).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item2">
+		            			<img src="image/1 (1).png" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (5).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (4).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_item dapei_item1">
+		            			<img src="image/12 (3).jpg" alt="">
+		            			<a href="">手机打开</a>
+		            			<p>角度思考和技术</p>
+		            			<h1>199元</h1>
+		            	</div>
+
+		            	<div class="dapei_zuihou3 dapei_item1">
+		            			<div class="dapei_zuihou">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (2).jpg" alt="" >
+		            				</div>
+		            			</div>
+		            			<div class="dapei_zuihou zuihou1">
+		            				<div class="dapei_zuihou_left">
+		            					<h1>小米小钢炮</h1>
+		            					<h2>199元</h2>
+		            				</div>
+		            				<div class="dapei_zuihou_right">
+		            					<img src="image/12 (1).jpg" alt="" >
+		            				</div>
+		            			</div>
+						</div>
 	            	</div>
 				</div>
 	    </div>
 	   	<!-- 周边结束 -->
 	   	<!-- 为你推荐开始 -->
-	   	<div class="introduce">
-	   	  	<div class="star_top">
-	   	  		<h1 >为你推荐</h1>
-            	<div class="star_btn">
-                	<div class="star_btn1">&lt;</div>
-                	<div>&gt;</div>
-                </div>
-            </div>
-	   	  	<div class="introduce_bottom">
-	   	  		<div class="introduce_item">
-	            			<img src="image/3 (1).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
+	   	<section class="star">
+	        <div class="star_top">
+	            <h1 >为你推荐</h1>
+	            <div class="star_btn">
+	                <div class="star_btn1 disable">&lt;</div>
+	                <div class="star_btn2">&gt;</div>
 	            </div>
+	        </div>
+	        <div class="star_bottom">
+	        	<div class="star_bottom1">
+		            <div class="star_item star_item5">
+		                <img src="image/3 (1).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
 
-	            <div class="introduce_item">
-	            			<img src="image/3 (2).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            </div>
+		            <div class="star_item star_item5">
+		                <img src="image/3 (2).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
 
-	            <div class="introduce_item">
-	            			<img src="image/3 (3).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            </div>
+		            <div class="star_item star_item5">
+		                <img src="image/3 (3).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
 
-	            <div class="introduce_item">
-	            			<img src="image/3 (4).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            </div>
+		            <div class="star_item star_item5">
+		                <img src="image/3 (4).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
 
-	            <div class="introduce_item introduce_item1">
-	            			<img src="image/3 (5).jpg" alt="">
-	            			<a href="">手机打开</a>
-	            			<p>角度思考和技术</p>
-	            			<h1>199元</h1>
-	            </div>
-			</div>
-	   	</div>
+		            <div class="star_item star_item5">
+		                <img src="image/3 (5).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+					
+					<div class="star_item star_item5">
+		                <img src="image/3 (5).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (4).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (3).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (2).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (1).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (5).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (3).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (2).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (5).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (4).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+
+		            <div class="star_item star_item5">
+		                <img src="image/3 (1).jpg" alt="">
+		                <a href="">手机打开</a>
+	            		<p>角度思考和技术</p>
+	            		<h4>199元</h4>
+		            </div>
+		            
+		        </div>
+	        </div>
+    	</section>
 	   	<!-- 为你推荐结束 -->
 	   	<!-- 热评产品开始 -->
 	   	<div class="product">
@@ -724,82 +1572,218 @@
 	   			<h1>内容</h1>
 	   		</div>
 	   		<div class="neirong_bottom">
-	   			<div class="neirong_bottom_item">
-	   				<h2>图书</h2>
-	   				<h4>哈利·波特与被诅咒的孩子</h4>
-	   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
-	   				<h3>29.37元</h3>
-					<div class="neirong_bottom_shu">
-	   					<img src="image/7.png" alt="">
-	   				</div>
-	   				<div class="neirong_bottom_bottom">
-	   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
-	   					</span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   				</div>
-	   			 	<div class="banner_btn1 banner_lbtn1">&lt;</div>
-	   			 	<div class="banner_btn1 banner_rbtn">&gt;</div>
-	   			</div>
+	   			<div class="neirong_bottom_item2">
+	   				<div class="neirong_bottom_item1">
+		   				<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/7.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+						<div class="neirong_bottom_item">
+	   						<h2>图书</h2>
+	   						<h4>哈利·波特与被诅咒的孩子</h4>
+	   						<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+	   						<h3>29.37元</h3>
+	   						<div class="neirong_bottom_shu">
+	   							<img src="image/61e1385e-54de-48f3-8717-5e4f4b1cdd14.png" alt="">
+	   						</div>
+	   						<div class="neirong_bottom_bottom">
+	   							<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+	   							</span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   						</div>
+	   					</div>
+			   			<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/100.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+		   			</div>
+	   			 	<div class=" banner_lbtn1">&lt;</div>
+	   			 	<div class=" banner_rbtn1">&gt;</div>
+				</div>
 
-	   			<div class="neirong_bottom_item">
-	   				<h2>图书</h2>
-	   				<h4>哈利·波特与被诅咒的孩子</h4>
-	   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
-	   				<h3>29.37元</h3>
-	   				<div class="neirong_bottom_shu">
-	   					<img src="image/61e1385e-54de-48f3-8717-5e4f4b1cdd14.png" alt="">
-	   				</div>
-	   				<div class="neirong_bottom_bottom">
-	   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
-	   					</span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   				</div>
-	   				<div class="banner_btn1 banner_lbtn1">&lt;</div>
-	   			 	<div class="banner_btn1 banner_rbtn">&gt;</div>
-	   			</div>
+	   			<div class="neirong_bottom_item2">
+	   				<div class="neirong_bottom_item1">
+		   				<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/100.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+						<div class="neirong_bottom_item">
+	   						<h2>图书</h2>
+	   						<h4>哈利·波特与被诅咒的孩子</h4>
+	   						<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+	   						<h3>29.37元</h3>
+	   						<div class="neirong_bottom_shu">
+	   							<img src="image/7.png" alt="">
+	   						</div>
+	   						<div class="neirong_bottom_bottom">
+	   							<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+	   							</span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   						</div>
+	   					</div>
+			   			<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/61e1385e-54de-48f3-8717-5e4f4b1cdd14.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+		   			</div>
+	   			 	<div class=" banner_lbtn1">&lt;</div>
+	   			 	<div class=" banner_rbtn1">&gt;</div>
+				</div>
 
-	   			<div class="neirong_bottom_item">
-	   				<h2>图书</h2>
-	   				<h4>哈利·波特与被诅咒的孩子</h4>
-	   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
-	   				<h3>29.37元</h3>
-	   				<div class="neirong_bottom_shu">
-	   					<img src="image/7.png" alt="">
-	   				</div>
-	   				<div class="neirong_bottom_bottom">
-	   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
-	   					</span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   				</div>
-	   				<div class="banner_btn1 banner_lbtn1">&lt;</div>
-	   			 	<div class="banner_btn1 banner_rbtn">&gt;</div>
-	   			</div>
+	   			<div class="neirong_bottom_item2">
+	   				<div class="neirong_bottom_item1">
+		   				<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/61e1385e-54de-48f3-8717-5e4f4b1cdd14.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+						<div class="neirong_bottom_item">
+	   						<h2>图书</h2>
+	   						<h4>哈利·波特与被诅咒的孩子</h4>
+	   						<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+	   						<h3>29.37元</h3>
+	   						<div class="neirong_bottom_shu">
+	   							<img src="image/7.png" alt="">
+	   						</div>
+	   						<div class="neirong_bottom_bottom">
+	   							<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+	   							</span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   						</div>
+	   					</div>
+			   			<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/100.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+		   			</div>
+	   			 	<div class=" banner_lbtn1">&lt;</div>
+	   			 	<div class=" banner_rbtn1">&gt;</div>
+				</div>
 
-	   			<div class="neirong_bottom_item neirong_bottom_item1">
-	   				<h2>图书</h2>
-	   				<h4>哈利·波特与被诅咒的孩子</h4>
-	   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
-	   				<h3>29.37元</h3>
-	   				<div class="neirong_bottom_shu">
-	   					<img src="image/61e1385e-54de-48f3-8717-5e4f4b1cdd14.png" alt="">
-	   				</div>
-	   				<div class="neirong_bottom_bottom">
-	   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
-	   					</span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
-	   				</div>
-	   				<div class="banner_btn1 banner_lbtn1">&lt;</div>
-	   			 	<div class="banner_btn1 banner_rbtn">&gt;</div>
-	   			</div>
+	   			<div class="neirong_bottom_item2 neirong_bottom_item4">
+	   				<div class="neirong_bottom_item1">
+		   				<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/61e1385e-54de-48f3-8717-5e4f4b1cdd14.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+						<div class="neirong_bottom_item">
+	   						<h2>图书</h2>
+	   						<h4>哈利·波特与被诅咒的孩子</h4>
+	   						<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+	   						<h3>29.37元</h3>
+	   						<div class="neirong_bottom_shu">
+	   							<img src="image/7.png" alt="">
+	   						</div>
+	   						<div class="neirong_bottom_bottom">
+	   							<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+	   							</span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   							<span class="neirong_bottom_left neirong_bottom_left1"></span>
+	   						</div>
+	   					</div>
+			   			<div class="neirong_bottom_item">
+			   				<h2>图书</h2>
+							<h4>哈利·波特与被诅咒的孩子</h4>
+			   				<p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！</p>
+			   				<h3>29.37元</h3>
+							<div class="neirong_bottom_shu">
+			   					<img src="image/100.png" alt="">
+			   				</div>
+			   				<div class="neirong_bottom_bottom">
+			   					<span class="neirong_bottom_left neirong_bottom_left1 neirong_bottom_left2">
+			   					</span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   					<span class="neirong_bottom_left neirong_bottom_left1"></span>
+			   				</div>
+			   			</div>
+		   			</div>
+	   			 	<div class=" banner_lbtn1">&lt;</div>
+	   			 	<div class=" banner_rbtn1">&gt;</div>
+				</div>
 	   		</div>
 		</div>
 	   	<!-- 内容结束 -->
 	   	<!-- 视频开始 -->
-		 <div class="vidio">
+		<div class="vidio">
 			<div class="vidio_top">
 					<h1 >视频</h1>
 					 <div class="vidio_more">
@@ -844,12 +1828,12 @@
 	        		</div>
 	        	</div>
 	        </div>
-		 </div>
+		</div>
 	   	<!-- 视频结束 -->
 	</div>
     <!-- 灰色部分结束 -->
     <!-- 白色部分开始 -->
-     <div class="baise">
+    <div class="baise">
      	<div class="baise_top">
      		<div class="baise_top_top">
      			<div class="baise_top_top1">
@@ -950,7 +1934,7 @@
 					</div>
    			 	</div>
 		 </div>
-     </div>
+    </div>
     <!-- 白色部分结束 -->
     <div class="bottom">
     	<div class="bottom_top">
@@ -1017,4 +2001,5 @@
     	</div>
     </div>
 </body>
+<script src="js/index.js"></script>
 </html>
