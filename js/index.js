@@ -212,11 +212,11 @@
 {
 	let  spanss=document.querySelectorAll(".nav_wenzi span");
 	let  gilders=document.querySelectorAll(".glide");
-	  
+	  console.log(spanss);
 	
 	spanss.forEach(function(ele,index){
 		ele.onmouseenter=function(){
-			gilders[index].style.height="100px";
+			gilders[index].style.height="230px";
 			gilders[index].style.display="block";
 		}
 		ele.onmouseleave=function(){
