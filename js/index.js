@@ -109,6 +109,7 @@
 	stars.forEach(function(ele,index){
 			shan(ele);
 	})
+	
 }
 //内容部分
 {

@@ -53,6 +53,7 @@
 	height: 100px;	
 	margin: 0 auto;
 	position: relative;
+	z-index: 100000;
 }
 .nav_logo{
 	width: 55px;
@@ -71,14 +72,33 @@
 	font-size: 15px;
 	float: left;
 	padding: 0 10px;
-	cursor: pointer;		/* 光标样式 */
+	cursor: pointer;
+	
 }
 .search{
-	/* border: 1px solid #E1E1E1; */
-	width: 294px;
+	border: 1px solid #E1E1E1;
+	width: 250px;
 	height: 52px;
 	float: right;
 	margin-top: 25px;
+	margin-left: 40px;
+	position: relative;
+}
+.search_wenzi1 a{
+	display: inline-block;
+    margin-left: 5px;
+    padding: 0 5px;
+    font-size: 12px;
+    background: #eee;
+    color: #757575;
+   	transition: all .2s;
+}
+.search_wenzi1{
+	position: absolute;
+    top: 14px;
+    right: 62px;
+    z-index: 2;
+    text-align: right;
 }
 .star{
 	width: 1226px;
@@ -912,6 +932,7 @@
 	line-height: 30px;
 	display: inline-block;
 	font-family: 'iconfont';
+	width: 120px;
 }
 .bottom{
 	width: 100%;
@@ -1033,7 +1054,7 @@
 	left: 0;
 	top: 0;
 	padding: 20px 0;
-	z-index: 10;
+	z-index: 10000;
 
 }
 
@@ -1059,12 +1080,13 @@
 	font-size: 20px;
 	color: #f33;
 	background-color: #fff;
-	z-index: 12;
+	z-index: 1000;
 	text-align: center;
 	display: none;
 	border-top: 1px solid #ccc;
 
 }
+
 .glide_title{
 	color: #333;
 	line-height: 20px;
@@ -1138,7 +1160,8 @@
     background: #fff;
    	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
 	display: none;
-	
+	z-index: 10000;
+	font-weight: bold;
 }
 .pop1 h1{
 	color: #333;
@@ -1149,24 +1172,31 @@
 	float: left;
     width: 265px;
     height: 438px;
-    padding: 2px 0;
-    margin: 10px 0;
+    
+    margin: 15px 0px;
 }
 .pop1_text{
 	line-height: 40px;
 	color: #333;
 	font-size: 14px;
+	display: block;
+	float: left;
+}
+.pop1_text:hover{
+	color: #ff6700;
+	font-weight: bold;
 }
 .pop1_li {
 	float: left;
-    width: 265px;
+    width: 245px;
     height: 76px;
-    
+     margin: 0 10px;
 }
 .pop1_img{
 	width: 40px;
 	height: 40px;
 	margin-right: 12px;
+	float: left;
 }
 .banner_lbtn1{
 	left: 0;
@@ -1345,10 +1375,12 @@
 
 .search_left{
 	float: left ;
-	margin-left: 40px;
+	
 	 padding: 10px 0; 
 	  line-height: 28px; 
 	 width: 198px;
+	 border: 0;
+	 
 
 
 }
@@ -1360,24 +1392,27 @@
 	color: #757575;
 
 }
-.search_right{
-    float: right;
-    /* border-left : 1px solid #E0E0E0; */
-    padding: 0;
-     width: 52px;
-     height: 52px;
-
-}
-
 .icont{
     
-	color: #ff6700;
+	color: #333;
 	font-size: 24px;
 	line-height: 48px;
 	/* margin: 0 14px; */
 	text-align: center;
 	font-family: 'iconfont';
+	border: none;
 }
+.search_right{
+    float: right;
+    border-left : 1px solid #E0E0E0;
+    padding: 0;
+     width: 52px;
+     height: 52px;
+	background-color: #fff!important;
+	
+}
+
+
 .neirong_bottom_left2{
   background-color: white;
    border: 2px solid #FF6700;
@@ -1506,11 +1541,9 @@
 .baise_bottom_right_zuihou:hover{
 	background-color:  #ff6700;
 	cursor: pointer;
-	color: white;
+	color: #fff;
 }
-.baise_bottom_right_zuihou span:hover{
-	color: white;
-}
+
 .baise_top_top_item:hover{
 	color: #ff6700;
 	cursor: pointer;
@@ -1527,8 +1560,8 @@
 	background-color: #ff6700; 
 }
 .search_right:hover{
-    color:white;
-	background-color: #ff6700; 
+    color:#fff;
+	background-color: #ff6700!important; 
 }
 .search_right span:hover{
     color:white;
@@ -1541,7 +1574,7 @@
 	color: #ff6700;
 }
 .vidio_item_top span:hover{
- 	background-color: rgba(0,0,0,0.6);
+ 	/* background-color: rgba(0,0,0,0.6); */
  	color:#ff6700 ;
 }
 /* .dapei_right span:hover{
@@ -1557,17 +1590,17 @@
     color: white;
     background-color:#ff6700; 
 }
-.xuangou_right img:hover,.zhineng_item:hover,.dapei_item:hover,.introduce_item:hover,.product_bottom_item:hover,.vidio_item:hover,.neirong_bottom_item:hover,.zhineng_left:hover,.dapei_item5:hover,.dapei_zuihou:hover,.star_item5:hover{
+.zhineng_item:hover,.dapei_item:hover,.introduce_item:hover,.product_bottom_item:hover,.vidio_item:hover,.neirong_bottom_item:hover,.zhineng_left:hover,.dapei_item5:hover,.dapei_zuihou:hover,.star_item5:hover{
 
     box-shadow: 0 10px 20px 2px #757575;
 
 }
-.xuangou_right img:hover,.zhineng_item:hover,.dapei_item:hover,.introduce_item:hover,.product_bottom_item:hover,.vidio_item:hover,.neirong_bottom_item:hover,.zhineng_left:hover,.dapei_item5:hover,.dapei_zuihou:hover,.star_item5:hover{
+.zhineng_item:hover,.dapei_item:hover,.introduce_item:hover,.product_bottom_item:hover,.vidio_item:hover,.neirong_bottom_item:hover,.zhineng_left:hover,.dapei_item5:hover,.dapei_zuihou:hover,.star_item5:hover{
 
    transform: translate(0, 1px);
 
 }
-.xuangou_right img,.zhineng_item,.dapei_item,.introduce_item,.product_bottom_item,.vidio_item,.neirong_bottom_item,.zhineng_left,.dapei_item5,.dapei_zuihou{
+.zhineng_item,.dapei_item,.introduce_item,.product_bottom_item,.vidio_item,.neirong_bottom_item,.zhineng_left,.dapei_item5,.dapei_zuihou{
 
     transition: all 1s linear;
 
@@ -1577,4 +1610,10 @@
 }
 .banner_btn1 :hover{
 	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.baise_bottom_right_zuihou span:hover,.search_wenzi1 a:hover{
+	background: #ff6700;
+	color: #fff;
+
 }
